@@ -1,7 +1,7 @@
 function [dirac,nx] = diracFunction(nba,nbi,n0)
-% nba:  x ekseninde ba?lang?ç
-% nbi: x eksenindde biti?
-% n0: kayd?rma miktar?
+% nba:  origin of the x-axis
+% nbi: end of the x-axis
+% n0: shift amounta
 
 nx = nba:nbi;
 dirac = (nx == n0);
